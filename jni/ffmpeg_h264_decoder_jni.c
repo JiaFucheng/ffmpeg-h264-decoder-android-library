@@ -180,5 +180,27 @@ EXTERN_C void JNI_FUNC(nativeGetMotionVectorList)
     free(mv_list_data);
 }
 
+EXTERN_C void JNI_FUNC(nativeGetResidualMapData)
+(
+    JNIEnv  *env,
+    jobject thisObject,
+    jlong   handle,
+    jbyteArray resMapData
+)
+{
+    // Nothing to do
+}
+
+EXTERN_C void JNI_FUNC(nativeGetYUVFrameData)
+(
+    JNIEnv  *env,
+    jobject thisObject,
+    jlong   handle,
+    jbyteArray yuvFrameData
+)
+{
+    // Nothing to do
+}
+
 #undef JNI_FUNC
 #undef JAVA_PACKAGE_NAME

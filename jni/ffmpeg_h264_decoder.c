@@ -154,9 +154,3 @@ void get_motion_vector_list(FFmpegDecodeContext *c, int *mv_list_data) {
             sd->size / sizeof(AVMotionVector),
             mv_list_data);
 }
-
-#ifdef RESIDUAL_MAP
-ResidualMap* get_residual_map() {
-    // TODO: Think what if we need to get residual from IDCT result?
-}
-#endif

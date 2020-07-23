@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 # Set your ffmpeg android library path.
 # Including include and lib directory.
-FFMPEG_PREFIX := your_ffmpeg/android
+FFMPEG_PREFIX := ../../ffmpeg-android-library
 
 FFMPEG_INC := ${FFMPEG_PREFIX}/$(TARGET_ARCH_ABI)/include
 FFMPEG_LIB := ${FFMPEG_PREFIX}/$(TARGET_ARCH_ABI)/lib
